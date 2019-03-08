@@ -1,0 +1,65 @@
+.details-optly-modal {
+    /* display: none; */
+  }
+  
+  .details-optly-modal-background {
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 100%;
+    z-index: 1200;
+  }
+  
+  .details-optly-modal-close {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .details-optly-modal-close:hover,
+  .details-optly-modal-close:focus {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .details-optly-modal-close svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke: #666;
+    box-sizing: content-box;
+    padding: .5rem;
+  }
+  
+  .details-optly-modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 1.5rem 1rem 2.5rem 1rem;
+    border: none;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    position: fixed;
+    box-sizing: border-box;
+    border-radius: 6px;
+    top: 15%;
+    z-index: 2000;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.23);
+    outline: 0;
+    font-size: .75rem;
+    color: #666;
+  }
+  
+  .orderNav .details-optly-modal-content { max-height: 75%; overflow-y: scroll; }
+  
+  
+  
+  .pos-fixed-for-popup { position: fixed; }
